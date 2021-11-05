@@ -11,7 +11,7 @@ nav{
 }
 .menu{
     margin: 0 auto;
-    width: 90%;
+    width: 82%;
     justify-content: space-between;
     align-items: center;
     font-family: 'Rubik', sans-serif;
@@ -64,12 +64,20 @@ nav{
     margin-bottom: 2rem;
     line-height: 1.5;
 }
-.main .main-content button{
+.main-content button{
     margin-left: 40%;
     padding:0.5rem 5rem;
     background: purple;
     color:white;
+    border: none;
     border-radius: 5px;
+    padding: 10px 40px;
+    
+}
+.main-content button:hover{
+    cursor: pointer;
+    background: rgb(14, 182, 233);
+    border: none;
 }
 .main .logo{
     width: 20%;
